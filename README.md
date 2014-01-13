@@ -46,9 +46,12 @@ Notes:
 - Don't create a similar subclass to UIImageView (e.g. UIImageViewWithBorders) to get selective borders on a UIImageView.
   UIImageView does not call drawRect of its sublcasses, so the code to draw the selective borders will not run.  Place
   an NAUIViewWithBorders over top of a UIImageView to achieve selective borders.
+- Be sure to check out the demo project.
 
 
     
+    
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1b4eef099ab4ddc7be7d89fc151c3dd8 "githalytics.com")](http://githalytics.com/natrosoft/NAUIViewWithBorders)
     
     
    
