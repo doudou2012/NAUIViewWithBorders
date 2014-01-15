@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C4C9882D-D1D5-4C1B-B1A4-8745A35E17C9</string>
+	<string>72377804-2F3A-465D-B2CE-CDBCAD3C9311</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NAUIViewWithBordersDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1CCF98C1-BEDC-4B8E-9E55-B1F7DD91CB9D</key>
-		<string>https://github.com/n8tr/NAUIViewWithBorders.git</string>
+		<key>650B4453-D54F-4BE5-99DA-3EE43ADABAA7</key>
+		<string>https://github.com/natrosoft/NAUIViewWithBorders.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NAUIViewWithBordersDemo/NAUIViewWithBordersDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1CCF98C1-BEDC-4B8E-9E55-B1F7DD91CB9D</key>
+		<key>650B4453-D54F-4BE5-99DA-3EE43ADABAA7</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/n8tr/NAUIViewWithBorders.git</string>
+	<string>https://github.com/natrosoft/NAUIViewWithBorders.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1CCF98C1-BEDC-4B8E-9E55-B1F7DD91CB9D</string>
+	<string>650B4453-D54F-4BE5-99DA-3EE43ADABAA7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1CCF98C1-BEDC-4B8E-9E55-B1F7DD91CB9D</string>
+			<string>650B4453-D54F-4BE5-99DA-3EE43ADABAA7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>NAUIViewWithBorders_natrosoft</string>
 		</dict>

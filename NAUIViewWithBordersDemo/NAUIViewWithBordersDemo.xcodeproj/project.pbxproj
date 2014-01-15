@@ -21,10 +21,7 @@
 		5C2F1A571880C74600B012E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F1A361880C74600B012E3 /* UIKit.framework */; };
 		5C2F1A5F1880C74600B012E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F1A5D1880C74600B012E3 /* InfoPlist.strings */; };
 		5C2F1A611880C74600B012E3 /* NAUIViewWithBordersDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F1A601880C74600B012E3 /* NAUIViewWithBordersDemoTests.m */; };
-		5C2F1A6E1880C79500B012E3 /* NAUIViewWithBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F1A6D1880C79500B012E3 /* NAUIViewWithBorders.m */; };
-		5C2F1A6F1880C79500B012E3 /* NAUIViewWithBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F1A6D1880C79500B012E3 /* NAUIViewWithBorders.m */; };
-		5C2F1A721880C80900B012E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F1A701880C80900B012E3 /* LICENSE */; };
-		5C2F1A731880C80900B012E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F1A711880C80900B012E3 /* README.md */; };
+		5CCF4E91188618BA00F15317 /* NAUIViewWithBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +54,8 @@
 		5C2F1A5C1880C74600B012E3 /* NAUIViewWithBordersDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAUIViewWithBordersDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5C2F1A5E1880C74600B012E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C2F1A601880C74600B012E3 /* NAUIViewWithBordersDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAUIViewWithBordersDemoTests.m; sourceTree = "<group>"; };
-		5C2F1A6C1880C79500B012E3 /* NAUIViewWithBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIViewWithBorders.h; sourceTree = "<group>"; };
-		5C2F1A6D1880C79500B012E3 /* NAUIViewWithBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAUIViewWithBorders.m; sourceTree = "<group>"; };
-		5C2F1A701880C80900B012E3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5C2F1A711880C80900B012E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CCF4E8F188618BA00F15317 /* NAUIViewWithBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIViewWithBorders.h; sourceTree = "<group>"; };
+		5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAUIViewWithBorders.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +85,7 @@
 		5C2F1A261880C74600B012E3 = {
 			isa = PBXGroup;
 			children = (
+				5CCF4E8E188618BA00F15317 /* NAUIViewWithBorders */,
 				5C2F1A381880C74600B012E3 /* NAUIViewWithBordersDemo */,
 				5C2F1A5A1880C74600B012E3 /* NAUIViewWithBordersDemoTests */,
 				5C2F1A311880C74600B012E3 /* Frameworks */,
@@ -127,7 +123,6 @@
 				5C2F1A4B1880C74600B012E3 /* NAViewController.m */,
 				5C2F1A4D1880C74600B012E3 /* Images.xcassets */,
 				5C2F1A391880C74600B012E3 /* Supporting Files */,
-				5C2F1A6A1880C78500B012E3 /* libraries */,
 			);
 			path = NAUIViewWithBordersDemo;
 			sourceTree = "<group>";
@@ -161,24 +156,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C2F1A6A1880C78500B012E3 /* libraries */ = {
+		5CCF4E8E188618BA00F15317 /* NAUIViewWithBorders */ = {
 			isa = PBXGroup;
 			children = (
-				5C2F1A6B1880C79500B012E3 /* NAUIViewWithBorders */,
-			);
-			path = libraries;
-			sourceTree = "<group>";
-		};
-		5C2F1A6B1880C79500B012E3 /* NAUIViewWithBorders */ = {
-			isa = PBXGroup;
-			children = (
-				5C2F1A6C1880C79500B012E3 /* NAUIViewWithBorders.h */,
-				5C2F1A6D1880C79500B012E3 /* NAUIViewWithBorders.m */,
-				5C2F1A711880C80900B012E3 /* README.md */,
-				5C2F1A701880C80900B012E3 /* LICENSE */,
+				5CCF4E8F188618BA00F15317 /* NAUIViewWithBorders.h */,
+				5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */,
 			);
 			name = NAUIViewWithBorders;
-			path = ../../../NAUIViewWithBorders;
+			path = ../NAUIViewWithBorders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,11 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C2F1A731880C80900B012E3 /* README.md in Resources */,
 				5C2F1A4E1880C74600B012E3 /* Images.xcassets in Resources */,
 				5C2F1A461880C74600B012E3 /* Main_iPhone.storyboard in Resources */,
 				5C2F1A3D1880C74600B012E3 /* InfoPlist.strings in Resources */,
-				5C2F1A721880C80900B012E3 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C2F1A4C1880C74600B012E3 /* NAViewController.m in Sources */,
-				5C2F1A6E1880C79500B012E3 /* NAUIViewWithBorders.m in Sources */,
+				5CCF4E91188618BA00F15317 /* NAUIViewWithBorders.m in Sources */,
 				5C2F1A3F1880C74600B012E3 /* main.m in Sources */,
 				5C2F1A431880C74600B012E3 /* NAAppDelegate.m in Sources */,
 			);
@@ -293,7 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C2F1A611880C74600B012E3 /* NAUIViewWithBordersDemoTests.m in Sources */,
-				5C2F1A6F1880C79500B012E3 /* NAUIViewWithBorders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +480,7 @@
 				5C2F1A661880C74600B012E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C2F1A671880C74600B012E3 /* Build configuration list for PBXNativeTarget "NAUIViewWithBordersDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +489,7 @@
 				5C2F1A691880C74600B012E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

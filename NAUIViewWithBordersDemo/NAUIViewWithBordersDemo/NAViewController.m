@@ -39,9 +39,9 @@ typedef void (^GCDSafeTimer)(void);
      * corners with different colors.  The draw order can be changed. */
     self.differentDrawOrderView.borderWidthsAll     = 8.0;
     self.differentDrawOrderView.borderColorTop      = [UIColor blueColor];
-    self.differentDrawOrderView.borderColorBottom   = [UIColor blueColor];
+    self.differentDrawOrderView.borderColorBottom   = [UIColor redColor];
     self.differentDrawOrderView.borderColorLeft     = [UIColor greenColor];
-    self.differentDrawOrderView.borderColorRight    = [UIColor greenColor];
+    self.differentDrawOrderView.borderColorRight    = [UIColor darkGrayColor];
 
     //Just set the draw order like so:
     self.differentDrawOrderView.drawOrder = [NSOrderedSet orderedSetWithObjects:kNABorderTop, kNABorderRight, kNABorderBottom, kNABorderLeft, nil];
