@@ -3,6 +3,11 @@ NAUIViewWithBorders
 UIView subclass that enables selective borders. (e.g. only a bottom border)
 Each side can be figured with a different color and width.
 
+![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/oneBorder.png)
+
+![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/differentBorders.png)
+
+
 Basic use case:
 - Change your UIView in Interface Builder to class type NAUIViewWithBorders
 - In your view controller's viewDidLoad
@@ -50,8 +55,9 @@ Notes:
 
 
  
-![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/oneBorder.png)   
-    
+![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/selectiveBorderSS.jpg)
+ 
+
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1b4eef099ab4ddc7be7d89fc151c3dd8 "githalytics.com")](http://githalytics.com/natrosoft/NAUIViewWithBorders)
     
     
