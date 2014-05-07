@@ -21,7 +21,6 @@
 		5C2F1A571880C74600B012E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F1A361880C74600B012E3 /* UIKit.framework */; };
 		5C2F1A5F1880C74600B012E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F1A5D1880C74600B012E3 /* InfoPlist.strings */; };
 		5C2F1A611880C74600B012E3 /* NAUIViewWithBordersDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F1A601880C74600B012E3 /* NAUIViewWithBordersDemoTests.m */; };
-		5CCF4E91188618BA00F15317 /* NAUIViewWithBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		5C2F1A5C1880C74600B012E3 /* NAUIViewWithBordersDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAUIViewWithBordersDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5C2F1A5E1880C74600B012E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C2F1A601880C74600B012E3 /* NAUIViewWithBordersDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAUIViewWithBordersDemoTests.m; sourceTree = "<group>"; };
-		5CCF4E8F188618BA00F15317 /* NAUIViewWithBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUIViewWithBorders.h; sourceTree = "<group>"; };
-		5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAUIViewWithBorders.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +82,6 @@
 		5C2F1A261880C74600B012E3 = {
 			isa = PBXGroup;
 			children = (
-				5CCF4E8E188618BA00F15317 /* NAUIViewWithBorders */,
 				5C2F1A381880C74600B012E3 /* NAUIViewWithBordersDemo */,
 				5C2F1A5A1880C74600B012E3 /* NAUIViewWithBordersDemoTests */,
 				5C2F1A311880C74600B012E3 /* Frameworks */,
@@ -154,16 +150,6 @@
 				5C2F1A5D1880C74600B012E3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5CCF4E8E188618BA00F15317 /* NAUIViewWithBorders */ = {
-			isa = PBXGroup;
-			children = (
-				5CCF4E8F188618BA00F15317 /* NAUIViewWithBorders.h */,
-				5CCF4E90188618BA00F15317 /* NAUIViewWithBorders.m */,
-			);
-			name = NAUIViewWithBorders;
-			path = ../NAUIViewWithBorders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C2F1A4C1880C74600B012E3 /* NAViewController.m in Sources */,
-				5CCF4E91188618BA00F15317 /* NAUIViewWithBorders.m in Sources */,
 				5C2F1A3F1880C74600B012E3 /* main.m in Sources */,
 				5C2F1A431880C74600B012E3 /* NAAppDelegate.m in Sources */,
 			);

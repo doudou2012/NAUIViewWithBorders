@@ -1,4 +1,4 @@
-NAUIViewWithBorders
+# NAUIViewWithBorders
 ==================
 UIView subclass that enables selective borders. (e.g. only a bottom border)
 Each side can be figured with a different color and width.
@@ -6,6 +6,20 @@ Each side can be figured with a different color and width.
 ![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/oneBorder.png)
 
 ![alt tag](http://natrosoft.com/wp-content/uploads/2014/01/differentBorders.png)
+
+## Usage
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
+
+## Installation
+NAUIViewWithBorders is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+    pod "NAUIViewWithBorders"
+
+## Author
+Nathan Rowe, natrosoft@gmail.com
+
+## License
+NAUIViewWithBorders is available under the MIT license. See the LICENSE file for more info.
 
 
 Basic use case:
