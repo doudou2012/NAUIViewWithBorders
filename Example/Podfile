@@ -1,2 +1,3 @@
-platform :ios
+platform :ios , '7.0.0'
+pod 'NAUIViewWithBorders', :path => '../'
 podspec :path => "../NAUIViewWithBorders.podspec"
